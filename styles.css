@@ -1,0 +1,155 @@
+:root {
+  --bg-main-color: #fff;
+  --title-main-color: #303030;
+  --text-main-color: #555555;
+  --active-color: #ff6c00;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+.suptitle {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+/* header */
+
+.header-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #555555;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-nav-list {
+  display: flex;
+  gap: 40px;
+}
+
+.header-logo {
+  padding-right: 70px;
+}
+
+.header-nav-link {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+
+  color: #ffffff;
+}
+
+.header-nav-link:hover {
+  color: var(--active-color);
+}
+
+.phone-number {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+
+  color: #ffffff;
+
+  margin-right: 40px;
+}
+
+.phone-number:hover {
+  color: var(--active-color);
+}
+
+.header-button {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  background-color: transparent;
+
+  padding: 12px 24px;
+
+  border: 1px solid #ff6c00;
+  border-radius: 25px;
+}
+.header-button:hover {
+  background: var(--active-color);
+}
+
+/* hero */
+
+.hero-social-link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  color: var(--title-main-color);
+}
+
+.hero-right-side .suptitle {
+  color: rgba(157, 164, 189, 0.6);
+  margin-bottom: 20px;
+}
+
+.main-title {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 1.18;
+  letter-spacing: 0.05em;
+  color: var(--bg-main-color);
+
+  margin-bottom: 20px;
+}
+
+.main-title {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+
+  color: #9da4bd;
+}
